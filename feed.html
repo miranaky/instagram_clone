@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kokoa Tribe</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+  </head>
+
+  <body>
+    <main class="feed">
+      <div class="feed__feed-column">
+        <a href="./index.html" class="feed__back-btn">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
+        <div class="feed__profile">
+          <img src="src/A.jpg" alt="" class="feed__user g-avatar" />
+          <span class="feed__username">Ahn Yujin</span>
+          <span class="feed__timestamp">5min</span>
+          <span class="feed__more">
+            <i class="fas fa-ellipsis-h"></i>
+          </span>
+        </div>
+        <div class="feed__picture-list">
+          <img src="src/A_inst.jpg" alt="" class="feed_picture" />
+        </div>
+        <div class="feed__status">
+          <span class="feed__likes">
+            <i class="far fa-heart"></i>
+            22345
+          </span>
+          <span class="feed__comments">
+            <i class="far fa-comment-alt"></i>
+            4210
+          </span>
+          <span class="feed__bookmark">
+            <i class="far fa-bookmark"></i>
+          </span>
+        </div>
+      </div>
+      <ul class="feed__comment-list comment">
+        <li class="comment__comment">
+          <div class="comment__column">
+            <img src="src/I.jpg" alt="" class="g-avatar " />
+            <span class="comment__name">IU</span>
+            <span class="comment__content">Hello Yujin!!</span>
+          </div>
+          <div class="comment__column">
+            <span class="comment__likes">
+              <i class="far fa-heart"></i>
+            </span>
+            <span class="comment__reply">
+              <i class="fas fa-reply"></i>
+            </span>
+          </div>
+        </li>
+        <li class="comment__comment">
+          <div class="comment__column">
+            <img src="src/L.jpg" alt="" class="g-avatar " />
+            <span class="comment__name">Luda</span>
+            <span class="comment__content">Hello Yujin!!</span>
+          </div>
+          <div class="comment__column">
+            <span class="comment__likes">
+              <i class="far fa-heart"></i>
+            </span>
+            <span class="comment__reply">
+              <i class="fas fa-reply"></i>
+            </span>
+          </div>
+        </li>
+        <li class="comment__comment">
+          <div class="comment__column">
+            <img src="src/T.jpg" alt="" class="g-avatar " />
+            <span class="comment__name">Taeyeon</span>
+            <span class="comment__content">Hello Yujin!!</span>
+          </div>
+          <div class="comment__column">
+            <span class="comment__likes">
+              <i class="far fa-heart"></i>
+            </span>
+            <span class="comment__reply">
+              <i class="fas fa-reply"></i>
+            </span>
+          </div>
+        </li>
+      </ul>
+      <div class="feed__write-comment write-comment">
+        <div class="write-comment__column">
+          <img src="src/S.jpg" alt="" class="g-avatar" />
+        </div>
+        <div class="write-comment__column">
+          <input
+            type="text"
+            class="add-comment__input"
+            placeholder="Add a comment"
+          />
+        </div>
+        <div class="write-comment__column">
+          <i class="far fa-paper-plane"></i>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
